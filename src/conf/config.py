@@ -3,7 +3,7 @@ from typing import List
 from pydantic.v1 import BaseSettings
 
 class Settings(BaseSettings):
-    TINDER_BACKEND_HOST: str = 'http://localhost:8000'
+    MEM_BACKEND_HOST: str = 'http://localhost:8000'
     #
     # JWT_SECRET_SALT: str
     # KAFKA_BOOTSTRAP_SERVERS: List[str]
