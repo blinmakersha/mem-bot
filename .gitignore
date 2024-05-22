@@ -1,3 +1,7 @@
 *pycache*
 *.env
 .idea
+.DS_Store
+.pytest_cache
+/.coverage
+.vscode
